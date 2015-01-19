@@ -12,6 +12,9 @@ class Player extends Entity
   // set the rotation speed
   private static inline var player_rotate_speed:Float = 10;
 
+  // shape colors
+  private static var PLAYER_COLORS:Array<Int> = [ 0x3399FF, 0x33FF66, 0xFF6633, 0x33FFFF ];
+
   // strict static input labels, (optional, you could just use literal strings)
   private static var INPUTS:{ LEFT:String, RIGHT:String, UP:String, DOWN:String} = {
     LEFT : "LEFT",
@@ -67,7 +70,7 @@ class Player extends Entity
       Create a new Image graphic
       http://haxepunk.com/documentation/api/com/haxepunk/graphics/Image.html#createRect
      */
-    image = Image.createRect( 50, 50, 0x3366FF );
+    image = Image.createRect( 50, 50, PLAYER_COLORS[ player_number ] );
     
     /*
       Make sure the shape rotates around a center origin
@@ -112,7 +115,7 @@ class Player extends Entity
     this.x += player_x_velocity;
     this.y += player_y_velocity;
 
-   image.angle += player_rotation_velocity;
+    image.angle += player_rotation_velocity;
   }
 
   /**
