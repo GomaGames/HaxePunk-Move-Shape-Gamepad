@@ -12,15 +12,7 @@ class MainScene extends Scene
 
   // set the rotation speed
   private static inline var my_shape_rotate_speed:Float = 10;
-
-  // strict static input labels, (optional, you could just use literal strings)
-  private static var INPUTS:{ LEFT:String, RIGHT:String, UP:String, DOWN:String} = {
-    LEFT : "LEFT",
-    RIGHT : "RIGHT",
-    UP : "UP",
-    DOWN : "DOWN"
-  };
-
+  
   /*
     The shape that we will be moving
    */
