@@ -24,7 +24,14 @@ This assumes a usb XBOX style gamepad, though other input configurations can be 
 
 
 [see video](http://gfycat.com/ConcernedColossalAdder)  
-![gamepad control](http://zippy.gfycat.com/ConcernedColossalAdder.gif)
+![gamepad control](http://zippy.gfycat.com/ConcernedColossalAdder.gif)  
+_notice how diagonal movement is 1.4x faster than orthogonal movement_
+
+compare against Polar Coordinate movement [HaxePunk-Analog-Gamepad-Polar-Coordinate-Movement](https://github.com/GomaGames/HaxePunk-Analog-Gamepad-Polar-Coordinate-Movement)
+
+[see video](http://gfycat.com/UnsungTartBluejay)  
+![gamepad 3](http://fat.gfycat.com/UnsungTartBluejay.gif)  
+_notice how movement in all directions are the same speed_
 
 Plug in a usb gamepad.  
 Test this proof of concept.
