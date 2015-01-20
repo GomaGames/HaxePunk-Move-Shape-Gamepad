@@ -8,6 +8,8 @@ See our other [HaxePunk Code Samples](https://github.com/GomaGames?query=HaxePun
 
 ## Move an Entity around using gamepad controls
 
+This is best for orthogonal `x` **or** `y` movement, like moving an Entity along a constrained `x` or `y` axis, as if it's on a rail. Moving Diagonally (as this demo shows) will result in faster diagonal movement.
+
 This demo autodetects your connected usb gamepad.  
 If it's not found, reconnect it and restart this demo.  
 This assumes a usb XBOX style gamepad, though other input configurations can be used, check the docs for:  
