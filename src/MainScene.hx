@@ -123,7 +123,7 @@ class MainScene extends Scene
   }
 
   /**
-   * Checks if keyboard input is triggered
+   * Checks for gamepad input
    */
   private inline function handleInput()
   {
