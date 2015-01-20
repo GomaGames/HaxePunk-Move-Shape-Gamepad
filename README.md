@@ -8,6 +8,17 @@ See our other [HaxePunk Code Samples](https://github.com/GomaGames?query=HaxePun
 
 ## Move an Entity around using gamepad controls
 
+This demo autodetects your connected usb gamepad.  
+If it's not found, reconnect it and restart this demo.  
+This assumes a usb XBOX style gamepad, though other input configurations can be used, check the docs for:  
+
+- [PS3 Gamepad](http://haxepunk.com/documentation/api/com/haxepunk/utils/PS3_GAMEPAD.html)
+- [XBOX Gamepad](http://haxepunk.com/documentation/api/com/haxepunk/utils/XBOX_GAMEPAD.html)
+- [OUYA Gamepad](http://haxepunk.com/documentation/api/com/haxepunk/utils/OUYA_GAMEPAD.html)
+- [Joystick](http://haxepunk.com/documentation/api/com/haxepunk/utils/Joystick.html)
+- [Touch](http://haxepunk.com/documentation/api/com/haxepunk/utils/Touch.html)
+
+
 [see video](http://gfycat.com/ConcernedColossalAdder)  
 ![gamepad control](http://zippy.gfycat.com/ConcernedColossalAdder.gif)
 
@@ -18,6 +29,16 @@ Controls :
 
 - Left Analog Control Stick - move around `x` and `y` axis
 - Right Analog Control Stick - rotate the shape
+
+Gamepads used : 
+
+Aftermarket usb gamepad, [walmart link](http://www.walmart.com/ip/POWER-A-PS3-ProEX-Wired-Controller-Black-PS3-Playstation-3/14962336), [newegg link](http://www.newegg.com/Product/Product.aspx?Item=N82E16879815015)  
+![USB Gampad](http://i5.walmartimages.com/dfw/dce07b8c-f05b/k2-_8c4a253a-abcf-474d-bf5c-f2c4725ce7f3.v1.jpg)
+
+Logitech F310 usb gamepad - [newegg link](http://www.newegg.com/Product/Product.aspx?Item=N82E16826104402)  
+![Logitech Gamepad](http://gaming.logitech.com/assets/47832/f310-gaming-gamepad-images.png)  
+_on the back of this gamepad, there is a switch setting for `x` and `d`, set it to `d` if it's not detected (osx)_   
+
 
 ----
 
