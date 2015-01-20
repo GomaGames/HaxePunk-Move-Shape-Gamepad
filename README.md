@@ -10,6 +10,8 @@ See our other [HaxePunk Code Samples](https://github.com/GomaGames?query=HaxePun
 
 This is best for orthogonal `x` **or** `y` movement, like moving an Entity along a constrained `x` or `y` axis, as if it's on a rail. Moving Diagonally (as this demo shows) will result in faster diagonal movement.
 
+If you want even `x` **and** `y` angular movement, like a top down adventure game or a free moving space shooter (Geometry Wars style) then see this Proof of concept instead [HaxePunk-Analog-Gamepad-Polar-Coordinate-Movement](https://github.com/GomaGames/HaxePunk-Analog-Gamepad-Polar-Coordinate-Movement)
+
 This demo autodetects your connected usb gamepad.  
 If it's not found, reconnect it and restart this demo.  
 This assumes a usb XBOX style gamepad, though other input configurations can be used, check the docs for:  
